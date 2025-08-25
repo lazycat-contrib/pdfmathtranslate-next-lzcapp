@@ -1,6 +1,6 @@
 name: PDFMathTranslate Next
 package: cloud.lazycat.app.pdf-math-translate-next
-version: 2.4.3
+version: 2.5.1
 description: PDFMathTranslate 是一款强大的 PDF 翻译工具。
 homepage: https://github.com/PDFMathTranslate/PDFMathTranslate-next
 author: PDFMathTranslate
@@ -14,8 +14,8 @@ application:
 services:
     pdfmtn:
         container_name: pdfmtn
-        # awwaawwa/pdfmathtranslate-next:v2.4.3-babeldoc-v0.4.22
-        image: registry.lazycat.cloud/czyt/awwaawwa/pdfmathtranslate-next:542f8f7973fee803
+        # awwaawwa/pdfmathtranslate-next:v2.5.1-babeldoc-v0.5.2
+        image: registry.lazycat.cloud/czyt/awwaawwa/pdfmathtranslate-next:4a22415ffd0fa091
         binds:
             - /lzcapp/var/input:/input
             - /lzcapp/var/output:/output
