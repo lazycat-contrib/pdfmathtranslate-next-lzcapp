@@ -21,7 +21,7 @@ images:
   - id: pdfmathtranslate-next
     target: service
     service: pdfmtn
-    source: docker.1ms.run/awwaawwa/pdfmathtranslate-next
+    source: docker.io/awwaawwa/pdfmathtranslate-next
     channel: stable
     sort: semver
     tag_regex: '^v?\d+\.\d+\.\d+-babeldoc-v\d+\.\d+\.\d+$'
