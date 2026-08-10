@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.pdf-math-translate-next
-version: 2.6.4
+version: 2.9.0
 name: PDFMathTranslate Next
 description: PDFMathTranslate 是一款强大的 PDF 翻译工具。
 min_os_version: 1.5.0

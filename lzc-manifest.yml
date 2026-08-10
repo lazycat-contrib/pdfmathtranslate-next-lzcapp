@@ -7,7 +7,8 @@ application:
 services:
   pdfmtn:
     # awwaawwa/pdfmathtranslate-next:v2.6.4-babeldoc-v0.5.10
-    image: registry.lazycat.cloud/czyt/awwaawwa/pdfmathtranslate-next:078f5bee7e65be86
+    # upstream: docker.io/awwaawwa/pdfmathtranslate-next:v2.9.0-babeldoc-v0.6.4
+    image: registry.lazycat.cloud/czyt/awwaawwa/pdfmathtranslate-next:1dd3f2ab2c34b8ad
     binds:
       - /lzcapp/var/input:/input
       - /lzcapp/var/output:/output
