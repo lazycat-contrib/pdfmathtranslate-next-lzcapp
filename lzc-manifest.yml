@@ -1,0 +1,13 @@
+application:
+  subdomain: pdf-math-translate-next
+  background_task: true
+  upstreams:
+    - location: /
+      backend: http://pdfmtn:7860/
+services:
+  pdfmtn:
+    # awwaawwa/pdfmathtranslate-next:v2.6.4-babeldoc-v0.5.10
+    image: registry.lazycat.cloud/czyt/awwaawwa/pdfmathtranslate-next:078f5bee7e65be86
+    binds:
+      - /lzcapp/var/input:/input
+      - /lzcapp/var/output:/output
