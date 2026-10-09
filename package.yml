@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.pdf-math-translate-next
+license: AGPL-3.0
 version: 2.9.0
 name: PDFMathTranslate Next
 description: PDFMathTranslate 是一款强大的 PDF 翻译工具。
